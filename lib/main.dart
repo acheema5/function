@@ -42,6 +42,7 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
+
   void _login(String name, String school) {
     setState(() {
       _isLoggedIn = true;
